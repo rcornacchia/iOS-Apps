@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PaM-8e-Yqu">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Happiness View Controller-->
+        <scene sceneID="R0r-hq-Pxc">
+            <objects>
+                <viewController id="PaM-8e-Yqu" customClass="HappinessViewController" customModule="Happiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBT-Q8-R8A"/>
+                        <viewControllerLayoutGuide type="bottom" id="yNI-ef-dxT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Vd-Sp-kBI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="PGR-Rs-T33" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PGR-Rs-T33" firstAttribute="top" secondItem="1Vd-Sp-kBI" secondAttribute="top" id="3uv-cu-kTa"/>
+                            <constraint firstItem="PGR-Rs-T33" firstAttribute="leading" secondItem="1Vd-Sp-kBI" secondAttribute="leading" id="HpG-Pw-cFe"/>
+                            <constraint firstAttribute="trailing" secondItem="PGR-Rs-T33" secondAttribute="trailing" id="fli-52-Qhm"/>
+                            <constraint firstItem="PGR-Rs-T33" firstAttribute="bottom" secondItem="yNI-ef-dxT" secondAttribute="top" id="syH-qn-KTn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6h-Gx-Jya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="415"/>
+        </scene>
+    </scenes>
+</document>
